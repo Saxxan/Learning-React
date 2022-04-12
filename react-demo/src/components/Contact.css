@@ -1,0 +1,5 @@
+.contact {
+    border-bottom: 1px solid var(--border-color, lightgrey);
+    font-weight: 600;
+    padding: var(--padding, 20px);
+}
