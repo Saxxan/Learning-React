@@ -1,5 +1,5 @@
 # Learning-React
-Begin with React
+Begin with React creating a contacts api
 
 ## Para crear una aplicación React
 

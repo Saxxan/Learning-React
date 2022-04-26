@@ -1,20 +1,14 @@
 import React from 'react';
 import './App.css';
 import Contact from './components/Contact';
+import UserList from './components/usersList.json';
 
 function App() {
 
-  const userList = [
-    { name: 'Pepe', image: 'https://placekitten.com/200/286' },
-    { name: 'Maria', image: 'https://placekitten.com/200/286' },
-    { name: 'Paco', image: 'https://placekitten.com/200/286' },
-    { name: 'Irene', image: 'https://placekitten.com/200/286' },
-    { name: 'Perrete', image: 'https://placekitten.com/200/286' },
-  ];
-
   return (
     <div className="App">
-      {userList.map(user => <Contact name={user.name} img={user.image}></Contact>)}
+      <h1 className='App__title'>Contactos</h1>
+      {UserList.map(user => <Contact name={user.name} img={user.image} mail={user.mail} feature={user.feature}></Contact>)}
     </div>
   );
 }
