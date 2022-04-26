@@ -1,14 +1,18 @@
 import React from 'react';
+import { useState } from 'react';
 import './Contact.css';
 
 export default function Contact(props) {
   let classList = 'contact';
+  let [fav, setFav] = useState(false);
 
-  if (props.feature === true) {
+  if (fav === true) {
     classList += ' active';
+  } else {
+    classList = 'contact';
   }
 
-  return <article className={classList}>
+  return <article onClick={() => fav ? setFav(false) : setFav(true)} className={classList}>
     <img className='contact__img' src={props.img} alt="imagen de usuario" />
     <section className='contact__info'>
       <h2 className='contact__name'>{props.name}</h2>
