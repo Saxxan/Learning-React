@@ -1,0 +1,6 @@
+.contact__img {
+    width: var(--avatar-size, 40px);
+    height: var(--avatar-size, 40px);
+    border-radius: 50%;
+    margin-left: 20px;
+}

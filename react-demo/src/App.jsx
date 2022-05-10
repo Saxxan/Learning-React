@@ -1,16 +1,20 @@
 import React from 'react';
 import './App.css';
-import Contact from './components/Contact';
-import UserList from './components/usersList.json';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home/Home';
+import Chat from './pages/Chat/Chat';
 
 function App() {
 
-  return (
-    <div className="App">
-      <h1 className='App__title'>Contactos</h1>
-      {UserList.map(user => <Contact name={user.name} img={user.image} mail={user.mail} feature={user.feature}></Contact>)}
-    </div>
-  );
+	return (
+		<div className="App">
+			<h1 className='App__title'>React chat</h1>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/chat/:name" element={<Chat />} />
+      		</Routes>
+		</div>
+	);
 }
 
 export default App;
