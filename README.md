@@ -13,6 +13,6 @@ npm start
 
 ## Dependencias
 
-React
-Firebase
-Router DOM
+- React
+- Firebase
+- Router DOM
