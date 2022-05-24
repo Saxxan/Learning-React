@@ -10,6 +10,7 @@
 
 .App__title {
   background-color: aquamarine;
+  text-align: center;
   margin: 0;
   padding: 20px 0;
 }
