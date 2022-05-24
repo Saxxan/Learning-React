@@ -9,3 +9,10 @@ npx create-react-app *nombre de la app*
 
 cd *nombre de la app creada*
 npm start
+
+
+## Dependencias
+
+React
+Firebase
+Router DOM
