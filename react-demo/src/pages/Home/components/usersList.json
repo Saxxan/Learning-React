@@ -1,0 +1,6 @@
+[
+    { "name": "Jon", "image": "https://placekitten.com/200/286", "telf": "654236789", "feature": true },
+    { "name": "Maria", "image": "https://www.fillmurray.com/640/360", "telf": "678942312", "feature": false },
+    { "name": "Carlos", "image": "https://picsum.photos/id/237/200/300", "telf": "612458931", "feature": false },
+    { "name": "Marta", "image": "https://media.gettyimages.com/photos/italian-actress-sophia-loren-relaxes-on-the-libyan-set-of-the-desert-picture-id77651149?k=20&m=77651149&s=612x612&w=0&h=sZc1idZuo3av7-VpPmv-UvXiLq_Kt4q6bd9lWKZkPrg=", "telf": "693425678", "feature": true }
+]

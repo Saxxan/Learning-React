@@ -1,6 +1,0 @@
-[
-    { "name": "Pepe", "image": "https://placekitten.com/200/286", "mail": "pepe@email.com", "feature": true },
-    { "name": "Maria", "image": "https://placekitten.com/200/286", "mail": "maria@email.com", "feature": false },
-    { "name": "Paco", "image": "https://placekitten.com/200/286", "mail": "paco@email.com", "feature": false },
-    { "name": "Irene", "image": "https://placekitten.com/200/286", "mail": "irene@email.com", "feature": true }
-]
